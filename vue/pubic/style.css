@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color:white;
+}
+header, footer{
+    background-color: #3d09fa;
+    color: #fff;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+
+/* CSS BARRE DE NAVIGATION*/  
+label.logo{
+    color: black;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 1px; 
+}
+nav ul li{
+    line-height: 80px;
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background: black;
+    transition: .5s;
+}
+.text-responsive{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+/* CSS IMAGE ET INFO APRES LA NAVIGATION*/  
+.banniere-photo{
+    min-height: 70vh;
+    background: url(Images/R.png);;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    opacity: 0.5;
+}
+
+/* CSS A PROPOS*/  
+.about-section{
+    
+    overflow: hidden;
+    padding: 10px 0;
+}
+.inner-container{
+    width: 60%;
+    
+    background-color: #3914df;
+    padding: 57px;
+}
+.inner-container img {  
+    background: no-repeat;  
+    background-size: 55%;  
+    overflow: hidden;  
+    padding: 10px 0;  
+    width: 80%; /* Ajuste la largeur de l'image */  
+    height: auto; /* Pour garder les proportions */   
+}  
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 20px; /* Espace entre l'image et le texte */  
+    width: 60%; 
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    
+    padding: 5px 30px ;
+    background-color: rgb(240, 238, 238);
+    border-radius: 4px;
+    margin-top: 25px;
+    color: white;
+
+}
+
+
+/* ACTUALITES CSS*/ 
+
+.carte-ligne{
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 19px;
+}
+.carte{
+    width: 350px;
+    background-color: blue;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(250, 248, 248, 0.2);
+    margin:18px;
+}
+.carte img{
+    transition: 1s;
+    width: 100%;
+    height: auto;
+}
+.carte img:hover{
+    transition: scale 1s;
+    scale: 2;
+    rotate: 90deg;
+}
+.colonne{
+    padding: 10px;
+}
+
+.colonne p{
+    color: white;
+    width: 250px;
+    height: 35px;
+    font-size:  14px;
+    line-height: 1.3;
+}
+.colonne .lire{
+    display: inline-block;
+    padding: 5px 30px ;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    color: white;
+}
+/* CSS CONTACT*/ 
+
+.contact {  
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    align-items: flex-start; 
+  }  
+.contact .map {  
+    display: block;
+    width: 600px;
+    height: 75px; 
+    box-sizing: border-box;  
+  }
+  .contact .form {   
+    width: 45%;  
+    box-sizing: border-box; 
+  } 
+.contact h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(31, 29, 29);
+}
+
+form input,
+form textarea{
+    display: block;
+    width: 620px;
+    height: 75px;
+    margin-bottom: 10px;
+    padding: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 252);
+    
+}
+form input:focus,
+form textarea :focus{
+    outline: none;
+    box-shadow: 0 0 5px white;
+}
+
+form button{
+    display: block;
+    width: 620px;
+    height: 75px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+form button:hover{
+    background-color: blue;
+}
+
+
+footer{
+    flex-shrink: 0;
+    width: 100%;
+    background: #3914df;
+    color: white;
+}
+.contenu-footer{
+    width: 1200px;
+    margin: O auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+.footer-contact h3,
+.footer-services h3,
+.about-medias h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+
+.liste-services,
+.liste-media{
+    list-style-type: none;
+}
+.liste-services img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.liste-services li{
+    padding: 2px 0;
+}
+.liste-services a{
+    text-decoration: none;
+    color: white;
+}
+.liste-services a:hover{
+   color: rgb(0, 0, 0);
+}
+
+.liste-media img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.liste-media a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 887px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }   
+    .contenu-footer {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc{
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }   
+    .contenu-footer {
+        width: 320px;
+    }
+    .bloc{
+        width: 300px;
+        margin: 30px 30px;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .inner-container{
+        padding: 80px;
+    }
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+
+}
+

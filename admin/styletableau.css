@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+}
+th, td{
+    max-width: 210px;
+    min-width: 210px;
+    overflow: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: left;
+}
+td a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 3px;
+    text-align: left;
+}
+td a:hover{
+    color:black;
+    transition: .5s;
+}
+th{
+    background-color: blue;
+    color: white;
+}
+tr:nth-of-type(even){
+    background: #f7f2f7;
+}
