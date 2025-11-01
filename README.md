@@ -1,5 +1,7 @@
 ﻿# site-architecture-MVC
 1- 📝 Présentation du Projet de Site Web Dynamique Académique
+
+
     Ce projet a été intégralement développé par MOUN-RE MAXIME en utilisant PHP, HTML, et CSS, en s'appuyant sur 
     l'architecture Modèle-Vue-Contrôleur (MVC)
 
@@ -41,3 +43,4 @@ Le site est structuré en deux sections distinctes :
 
 Développeur et Auteur : MOUN-RE MAXIME (Étudiant en Big Data). Je suis à votre disposition pour toute opportunité de collaboration 
 ou demande de services.
+
