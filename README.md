@@ -6,7 +6,9 @@
     l'architecture Modèle-Vue-Contrôleur (MVC)
 
 2- 💻 Structure et Accès au Projet
+
 Le site est structuré en deux sections distinctes :
+
     - Partie Visiteur (Front-end): Accessible via l'URL : http://localhost/site-architecture-MVC/
     -Partie Administration (Back-end): Accessible via l'URL : http://localhost/site-architecture-MVC/admin
     
@@ -43,5 +45,6 @@ Le site est structuré en deux sections distinctes :
 
 Développeur et Auteur : MOUN-RE MAXIME (Étudiant en Big Data). Je suis à votre disposition pour toute opportunité de collaboration 
 ou demande de services.
+
 
 
