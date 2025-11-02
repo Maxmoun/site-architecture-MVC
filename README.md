@@ -7,8 +7,8 @@
 
 2- 💻 Structure et Accès au Projet
 Le site est structuré en deux sections distinctes :
-    - Partie Visiteur (Front-end): Accessible via l'URL : http://localhost/expose/
-    -Partie Administration (Back-end): Accessible via l'URL : http://localhost/expose/admin
+    - Partie Visiteur (Front-end): Accessible via l'URL : http://localhost/site-architecture-MVC/
+    -Partie Administration (Back-end): Accessible via l'URL : http://localhost/site-architecture-MVC/admin
     
     L'accès à la partie administration est sécurisé par une authentification. Si les identifiants
     fournis sont corrects, l'utilisateur est dirigé vers le tableau de bord; dans le cas contraire, il est
@@ -43,4 +43,5 @@ Le site est structuré en deux sections distinctes :
 
 Développeur et Auteur : MOUN-RE MAXIME (Étudiant en Big Data). Je suis à votre disposition pour toute opportunité de collaboration 
 ou demande de services.
+
 
